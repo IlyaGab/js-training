@@ -8,4 +8,4 @@ function func(year, month , day){
     return 'обычный';
 };
 
-console.log(func(now.getFullYear(), now.getMonth() + 1, 0));
+console.log(func(now.getFullYear(), 2, 0));
