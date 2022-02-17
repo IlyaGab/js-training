@@ -1,9 +1,9 @@
 .inactive {
-	border: 3px solid red;
+	color:  red;
 }
 
 .active {
-	border: 3px solid green;
+	color:  green;
 }
 
 .none{
