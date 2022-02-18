@@ -10,13 +10,16 @@
 	display: none;
 }
 
+div, ul, li {
+	padding: 20px;
+}
 
-ul {
-	padding: 30px;
+div {
 	border: 1px solid red;
 }
+ul {
+	border: 1px solid orange;
+}
 li {
-	list-style-type: none;
-	margin-bottom: 20px;
-	border: 1px dashed black;
+	border: 1px solid green;
 }
