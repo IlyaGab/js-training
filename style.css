@@ -2,10 +2,6 @@
 	color:  red;
 }
 
-.active {
-	color:  green;
-}
-
 .none{
 	display: none;
 }
@@ -22,4 +18,8 @@ ul {
 }
 li {
 	border: 1px solid green;
+}
+
+#block:not(.active) {
+	display: none;
 }
