@@ -2,24 +2,6 @@
 	color:  red;
 }
 
-.none{
-	display: none;
-}
-
-div, ul, li {
-	padding: 20px;
-}
-
-div {
-	border: 1px solid red;
-}
-ul {
-	border: 1px solid orange;
-}
-li {
-	border: 1px solid green;
-}
-
-#block:not(.active) {
-	display: none;
+.active {
+	color: green;
 }
