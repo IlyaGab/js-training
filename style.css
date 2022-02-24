@@ -1,3 +1,11 @@
-.active {
-    background-color: red;
+.color1 {
+    color: red;
+}
+
+.color2 {
+    color: green;
+}
+
+.color3 {
+    color: yellow;
 }
