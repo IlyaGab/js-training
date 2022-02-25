@@ -11,6 +11,9 @@ for(let i = 0; i < array.length; i++){
         input.addEventListener('blur', function(){
             item.innerHTML = this.value;
             item.addEventListener('click', func);
+            if(item.innerHTML === ''){
+                item.innerHTML = array[i];
+            };
         });
         item.removeEventListener('click', func);
     });
